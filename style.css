@@ -1,1 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #001f3f; /* Navy Blue */
+}
+
+header {
+    background-color: #001f3f; /* Blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a:hover, nav a.active {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #FF4136; /* Red */
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
